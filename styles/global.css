@@ -246,3 +246,7 @@ body {
 .txt-no-wrap {
   text-wrap: nowrap;
 }
+
+.hidden {
+  display: none;
+}
