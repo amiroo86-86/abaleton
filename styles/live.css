@@ -1,0 +1,571 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+/* The Container */
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+/* The Header */
+.menu #bar-icon {
+  font-size: 30px;
+  display: none;
+  padding-left: 20px;
+}
+.menu .Abelton-on-header-for-mobile {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  display: none;
+}
+.menu .Abelton-on-header-for-mobile b {
+  font-size: 30px;
+}
+
+.header {
+  margin: 0;
+}
+.header > nav {
+  margin: 20px;
+}
+.menu li a:focus {
+  color: orange;
+}
+.menu > span > a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+.menu .register {
+  position: absolute;
+  right: 20px;
+}
+.menu .try-for-free {
+  position: absolute;
+  right: 120px;
+}
+
+/* navigation 2 */
+.child-of-header {
+  padding-top: 30px;
+  border-top: 2px solid rgb(226, 221, 221);
+  width: 100%;
+}
+
+/* The Content */
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+/* image with title  */
+
+.img-with-title {
+  background-image: url(../assets/images/icons/image1-of-grid-box2.avif);
+  background-size: cover;
+  object-fit: contain;
+  background-position: center;
+  height: 35rem;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  overflow: hidden;
+}
+.img-with-title i {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  cursor: pointer;
+}
+
+.img-with-title h2 {
+  color: white;
+  font-size: 3.5rem;
+  width: 80%;
+  line-height: 1.7;
+}
+.img-with-title b {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+  padding: 20px;
+}
+.img-with-title button {
+  background-color: blue;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.img-with-title button a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+.img-with-title button:hover {
+  background-color: rgb(14, 14, 165);
+  transition: 0.5s ease-in-out;
+}
+
+/* section1 */
+.section1 .paragraph {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 50px;
+  font-size: 25px;
+  line-height: 1.5;
+}
+.section1 > div > video {
+  margin-top: 60px;
+}
+
+
+video::-webkit-media-controls-panel {
+  background-image: url(../assets/images/icons/image1-of-grid-box3.avif);
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section1 > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* title with list */
+.section1 > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.section1 > ul li a {
+  color: blue;
+  font-size: 20px;
+  padding: 10px;
+}
+.section1 b {
+  font-size: 40px;
+  padding-right: 50px;
+}
+.title-with-list {
+  display: flex;
+  justify-content: center;
+}
+
+/* section2 */
+.title-with-video-in-box2 {
+  display: grid;
+  grid-template-columns: auto;
+}
+.section2 {
+  width: 100%;
+  background-color: rgb(230, 227, 236);
+  margin-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container {
+  width: 100%;
+  display: grid;
+  margin-top: 120px;
+}
+.grid-container .grid-boxes {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.grid-container .grid-boxes p {
+  line-height: 1.6;
+}
+
+/* grid containers */
+.grid-container1 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-container2 {
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+}
+
+
+
+/* grid container 3 */
+.grid-container3 {
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-container3 .grid-boxes1-of-grid-container3{
+  grid-column: 1 / 3;
+}
+.grid-container3 .grid-boxes2-of-grid-container3 {
+  grid-column: 3  / 6;
+}
+
+/* grid container 4 */
+.grid-container4 {
+  width: 100%;
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-container4 .grid-boxes1-of-grid-container4{
+  grid-column: 1 / 4;
+}
+.grid-container4 .grid-boxes2-of-grid-container4 {
+  grid-column: 4  / 4;
+}
+
+
+
+
+.grid-container5 {
+  grid-template-columns: repeat(2, 1fr);
+  width: 1100px;
+}
+.grid-container6 {
+  grid-template-columns: repeat(2, 1fr);
+  width: 1100px;
+  padding-bottom: 50px;
+}
+
+/* section3 */
+.section3 {
+  background-color: white;
+}
+.section3 .title-of-section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+.section3 .title-of-section3 h4 {
+  font-size: 50px;
+}
+
+/* grid boxes in ection3 */
+.section3 .grid-container1-of-section3 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 100%;
+  margin-top: 100px;
+}
+.section3 .grid-boxes {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.section3 .grid-boxes p {
+  line-height: 1.6;
+}
+
+/* title2 of section3 */
+.title2-of-section3 {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+/* img1 of section3 */
+.section3 .img1-of-section3 {
+  width: 919px;
+  margin-top: 100px;
+  margin-left: 100px;
+  height: auto;
+}
+.section3 .img1-of-section3 > div {
+  height: 100%;
+  width: 100%;
+}
+.section3 .img2-of-section3 {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 919px;
+  height: auto;
+}
+.section3 .img2-of-section3 > div {
+  height: 100%;
+  width: 100%;
+}
+
+/* title3 of section3 */
+.title3-of-section3 {
+  margin-top: 150px;
+  margin-left: 100px;
+  width: 600px;
+}
+
+/* img3 of section3 */
+.section3 .img3-of-section3 {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 563px;
+  height: 188px;
+}
+.section3 .img3-of-section3 > div {
+  width: 100%;
+  height: 100%;
+}
+
+/* img4 of section3 */
+.section3 .img4-of-section3 {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 838px;
+  height: 188px;
+}
+.section3 .img4-of-section3 > div {
+  height: 100%;
+  width: 100%;
+}
+
+/* buttun1 0f section3 */
+.button1-of-section3 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.button1-of-section3 > div {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+.button1-of-section3 a {
+  text-decoration: none;
+  color: blue;
+  font-size: 25px;
+}
+.button1-of-section3 :hover {
+  background-color: blue;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.button1-of-section3:hover a {
+  color: white;
+  transition: 0.5s;
+}
+
+/* The Footer */
+
+.footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 300px;
+  margin: 80px 15px 0 15px;
+  overflow-x: auto;
+}
+
+/* Section1 of Footer */
+
+.section1-of-footer > ul > li,
+a {
+  padding: 5px;
+  font-size: 18px;
+}
+.section1-of-footer > ul a {
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+}
+
+/* Section2 of Footer */
+
+.section2-of-footer > h5 {
+  padding: 20px 0 20px 20px;
+}
+.section2-of-footer > ul li,
+a {
+  padding: 10px 0px 10px 10px;
+  text-decoration: none;
+}
+.section2-of-footer > ul a {
+  color: rgb(88, 88, 88);
+}
+
+/* section3 of footer */
+.section3-of-footer p {
+  color: rgb(88, 88, 88);
+  line-height: 1.5;
+  padding-left: 20px;
+  text-align: justify;
+}
+.section3-of-footer > h5 {
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.section3-of-footer input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  background-color: rgb(196, 196, 196);
+}
+.section3-of-footer input::placeholder {
+  color: rgb(88, 88, 88);
+}
+.form {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+/* section4 0f Footer */
+.section4-of-footer > h5 {
+  padding: 20px 0 20px 20px;
+}
+.section4-of-footer > ul li,
+a {
+  padding: 10px 0px 10px 10px;
+  text-decoration: none;
+}
+.section4-of-footer > ul a {
+  color: rgb(88, 88, 88);
+}
+
+/* section5 of Footer */
+.section5-of-footer option {
+  border-radius: 0px;
+}
+.section5-of-footer select {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 250px;
+  background-color: rgb(196, 196, 196);
+  margin-top: 30px;
+}
+.content-of-section5 {
+  padding-top: 40px;
+}
+
+
+/* respnsive for mobile */
+@media screen and (max-width: 1050px) {
+  .header .responsive-menu-for-pc {
+    display: none;
+  }
+  .header .menu #bar-icon {
+    display: block;
+  }
+  .header .menu .Abelton-on-header-for-mobile {
+    display: block;
+  }
+  .footer {
+    grid-template-columns: auto;
+  }
+  .grid-container {
+    grid-template-columns: auto;
+  }
+  .grid-container1 .grid-boxes {
+    width: auto;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .grid-container3 
+    {
+     display: flex;
+     flex-direction: column-reverse;
+      
+  }
+  .title-with-video-in-box2 h3{
+    font-size: 40px;
+  }
+  .grid-container4 .grid-boxes1-of-grid-container4
+{
+  grid-column:  6 / 4;
+}
+.section3 .title-of-section3 > h4{
+  font-size: 35px;
+}
+.section3 .grid-container1-of-section3{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.title2-of-section3{
+  margin-left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title2-of-section3 h4{
+  font-size: 30px;
+}
+.title2-of-section3 p{
+width: 100%;
+}
+.section3 .img1-of-section3 {
+width: auto;
+margin-left: 0;
+padding-left: 20px;
+padding-right: 20px;
+}
+.section3 .img2-of-section3 {
+  width: auto;
+  margin-left: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  }
+  .title3-of-section3{
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+    
+  }
+  .section3 .img3-of-section3{
+    width: auto;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .section3 .img4-of-section3{
+    width: auto;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .button1-of-section3 a{
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 457px) {
+  .img-with-title {
+    align-items: flex-start;
+  }
+  .title-with-video-in-box2 h3 {
+    font-size: 30px;
+  }
+  .paragraph{
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 537px){
+  .img-with-title h2{
+    font-size: 2.5rem;
+  }
+}

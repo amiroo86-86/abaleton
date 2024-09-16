@@ -1,0 +1,317 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* my header */
+
+.header {
+  position: relative;
+  padding: 25px;
+  margin: 0;
+}
+.menu #bar-icon {
+  font-size: 40px;
+  display: none;
+}
+.menu .Abelton-on-header-for-mobile {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: none;
+}
+.menu .Abelton-on-header-for-mobile b {
+  font-size: 40px;
+}
+.menu > span > a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+}
+.menu .register {
+  position: absolute;
+  right: 10px;
+}
+.menu .try-for-free {
+  position: absolute;
+  right: 100px;
+}
+
+/* my image container */
+
+.images-container {
+  position: relative;
+  width: 100%;
+  height: 700px;
+}
+
+/* style for all div that in image container */
+
+/* image1 of image container */
+.images-container .image1 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/images/icons/wallpapersden.com_windows-11-4k-dark-blue_3840x2160.jpg);
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+.images-container .image1 h3 {
+  padding: 20px;
+  width: 80%;
+  line-height: 1.5;
+  font-size: 60px;
+  color: yellow;
+}
+.images-container .image1 a {
+  color: yellow;
+  font-size: 30px;
+  padding: 20px;
+}
+
+/* image2 of image container */
+
+.images-container .image2 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/images/icons/wallpapersden.com_starry-sky-hd-dark-blue-night_2912x1632.jpg);
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  left: 0;
+  top: 50%;
+}
+.images-container .image2 h3 {
+  padding: 20px;
+  width: 80%;
+  font-size: 30px;
+  color: aqua;
+}
+.images-container .image2 a {
+  color: aqua;
+  font-size: 20px;
+  padding-left: 20px;
+}
+
+/* image3 of image container */
+
+.images-container .image3 {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../assets/images/icons/655dd8fc622ec.jpeg);
+  position: absolute;
+  top: 50%;
+  width: 50%;
+  height: 40%;
+  right: 0;
+}
+.images-container .image3 h3 {
+  padding: 10px;
+  width: 100%;
+  font-size: 30px;
+  color: aqua;
+}
+.images-container .image3 a {
+  color: aqua;
+  font-size: 15px;
+  padding: 10px;
+}
+
+/* section1 */
+.section1 > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.section1 > ul li a {
+  color: blue;
+  font-size: 20px;
+  padding: 10px;
+}
+.section1 b {
+  font-size: 40px;
+  padding-right: 50px;
+}
+.boxes-of-section1 > a {
+  text-decoration: none;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.boxes-of-section1 > h4 {
+  margin-top: 20px;
+  line-height: 1.5;
+}
+
+/* sections */
+
+.sections {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.boxes {
+  max-width: 500px;
+  height: 400px;
+  padding-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.boxes > img {
+  width: 100%;
+  height: 250px;
+  margin-bottom: 20px;
+}
+.boxes > a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+/* blue box with list */
+
+.box-with-blue-bg {
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.box-with-blue-bg > ul > li a {
+  color: blue;
+  font-size: 20px;
+}
+
+/* The Footer */
+
+.footer {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px 300px;
+  margin: 80px 15px 0 15px;
+  overflow-x: auto;
+}
+
+/* Section1 of Footer */
+
+.section1-of-footer > ul > li,
+a {
+  padding: 5px;
+  font-size: 18px;
+}
+.section1-of-footer > ul a {
+  text-decoration: none;
+  color: rgb(88, 88, 88);
+}
+
+/* Section2 of Footer */
+
+.section2-of-footer > h5 {
+  padding: 20px 0 20px 20px;
+}
+.section2-of-footer > ul li,
+a {
+  padding: 10px 0px 10px 10px;
+  text-decoration: none;
+}
+.section2-of-footer > ul a {
+  color: rgb(88, 88, 88);
+}
+
+/* section3 of footer */
+.section3-of-footer p {
+  color: rgb(88, 88, 88);
+  line-height: 1.5;
+  padding-left: 20px;
+  text-align: justify;
+}
+.section3-of-footer > h5 {
+  padding-left: 20px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.section3-of-footer input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  background-color: rgb(196, 196, 196);
+}
+.section3-of-footer input::placeholder {
+  color: rgb(88, 88, 88);
+}
+.form {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+/* section4 0f Footer */
+.section4-of-footer > h5 {
+  padding: 20px 0 20px 20px;
+}
+.section4-of-footer > ul li,
+a {
+  padding: 10px 0px 10px 10px;
+  text-decoration: none;
+}
+.section4-of-footer > ul a {
+  color: rgb(88, 88, 88);
+}
+
+/* section5 of Footer */
+.section5-of-footer option {
+  border-radius: 0px;
+}
+.section5-of-footer select {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 250px;
+  background-color: rgb(196, 196, 196);
+  margin-top: 30px;
+}
+.content-of-section5 {
+  padding-top: 40px;
+}
+@media screen and (max-width: 1066) {
+}
+@media screen and (max-width: 950px) {
+  .header .responsive-menu-for-pc {
+    display: none;
+  }
+  .header .menu #bar-icon {
+    display: block;
+  }
+  .header .menu .Abelton-on-header-for-mobile {
+    display: block;
+  }
+  .footer {
+    grid-template-columns: auto;
+  }
+  .section1 .menu2 {
+    justify-content: flex-start;
+  }
+  .images-container .image3 h3 {
+    font-size: 20px;
+  }
+  .images-container .image3 a {
+    font-size: 8px;
+  }
+  .images-container .image2 h3 {
+    font-size: 20px;
+  }
+  .images-container .image2 a {
+    font-size: 10px;
+  }
+  .images-container .image1 h3 {
+    font-size: 40px;
+  }
+  .images-container .image1 a {
+    font-size: 20px;
+  }
+}
